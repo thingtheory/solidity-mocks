@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity ^0.8.6;
 
-import "./interfaces/beethovenx/IBeethovenxChef.sol";
+import "solidity-interfaces/beethovenx/IBeethovenxChef.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "./MockERC20.sol";
 

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.6;
 
 import "../MockERC20.sol";
-import "../interfaces/beethovenx/IBeetsBar.sol";
+import "solidity-interfaces/beethovenx/IBeetsBar.sol";
 
 contract MockBeetsBar is IBeetsBar, MockERC20 {
   address input;

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity ^0.8.6;
 
-import "../interfaces/beethovenx/IBalancerVault.sol";
+import "solidity-interfaces/beethovenx/IBalancerVault.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract MockBalancerVault is IBalancerVault {
